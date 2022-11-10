@@ -1,2 +1,7 @@
 requests
 python-dotenv
+numpy
+music-tag
+SQLAlchemy
+alive-progress
+opencv-python
