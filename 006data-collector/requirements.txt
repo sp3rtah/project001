@@ -1,0 +1,9 @@
+Flask
+Pillow
+Flask-WTF
+Flask-Bcrypt
+Flask-Login
+flask-loguru
+Flask-SQLAlchemy
+email-validator
+python-dotenv

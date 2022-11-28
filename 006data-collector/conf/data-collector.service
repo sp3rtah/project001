@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve data-collector
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/www/data-collector
+Environment="PATH=/var/www/data-collector/venv/bin"
+ExecStart=/var/www/data-collector/venv/bin/gunicorn --workers 2 --bind unix:data-collector.sock wsgi:app
+
+[Install]
+WantedBy=multi-user.target

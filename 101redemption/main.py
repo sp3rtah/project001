@@ -77,7 +77,7 @@ class Mayday:
         if bit_len > max_bit_len:
             print(f'Not enough bits! extra required: {len(secret_bits)-max_bit_len}')
             sys.exit(1)
-        
+
         done = False
         bit_index = 0
         for value in image:

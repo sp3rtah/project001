@@ -1,0 +1,11 @@
+*.env
+*.pyc
+*.tmp
+*.log
+*.db
+*.mp3
+*.mp4
+*.m4a
+*.wav
+venv/
+__pycache__/
